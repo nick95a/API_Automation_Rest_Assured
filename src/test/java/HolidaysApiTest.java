@@ -1,11 +1,10 @@
 import org.junit.Test;
-import io.restassured.*;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.core.IsEqual.*;
-import org.hamcrest.core.*;
 
 
-public class SimpleApiTest {
+public class HolidaysApiTest {
 
     String holidaysArr[] = new String[]{"Новый год"};
     //int arrLength = holidaysArr.length;
